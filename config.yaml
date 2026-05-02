@@ -1,0 +1,31 @@
+baseURL: "https://dinaamiri71-ops.github.io/"
+title: "Амири Дина - Портфолио"
+theme: "PaperMod"
+paginate: 5
+languageCode: "ru"
+defaultContentLanguage: "ru"
+
+params:
+  homeInfoParams:
+    Title: "Привет! Я Амири Дина 👋"
+    Content: |
+      - Студентка РУДН
+      - Люблю программирование и open source
+      - Интересуюсь веб-разработкой, Git и Linux
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/dinaamiri71-ops"
+    - name: "email"
+      url: "mailto:dinaamiri71@example.com"
+
+menu:
+  main:
+    - identifier: posts
+      name: Посты (этапы проекта)
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Тэги
+      url: /tags/
+      weight: 20
